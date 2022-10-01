@@ -7,13 +7,13 @@ public class Prime {
 		
 		if(n<=1) {
 			
-			return "not ptime";
+			return "not prime";
 			
 		}
 	for (int i = 2; i < Math.sqrt(n); i++) {
 		
 		if (n%i==0) {
-			return "not ptime";
+			return "not prime";
 		}
 	}
 	return "prime";
